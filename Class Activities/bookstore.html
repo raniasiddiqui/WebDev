@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="bookstore.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#request">Request</a></li>
+            <li><a href="#browse">All books</a></li>
+            <li><a href="mailto:contact@bookstore.com">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>The Book Nook</h1>
+    </section>
+
+    <section id="request">
+        <h2>Request a Book</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="book-title">Book Title:</label>
+            <input type="text" id="book-title" name="book-title" required><br><br>
+            <label for="notify">
+                <input type="checkbox" id="notify" name="notify">
+                Notify me by email when this book is available.
+            </label><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="browse">
+        <h2>Browse all books</h2>
+        <a href="https://www.libertybooks.com" target="_blank">Visit store</a>
+    </section>
+</body>
+</html>
