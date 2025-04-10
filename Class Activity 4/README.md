@@ -1,6 +1,6 @@
 ## CRUD API with Promises
 
-This project demonstrates how to implement a basic CRUD (Create, Read, Update, Delete) API using Express.js and simulate asynchronous behavior using JavaScript Promises.
+This class activity demonstrates how to implement a basic CRUD (Create, Read, Update, Delete) API using Express.js and simulate asynchronous behavior using JavaScript Promises.
 
 ### 📌 Tasks Overview
 #### In server.js, the following API endpoints have been implemented:
